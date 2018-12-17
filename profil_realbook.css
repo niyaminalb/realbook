@@ -1,0 +1,125 @@
+body{
+    background-image: url("imagebackground2.jpeg");
+    background-size: 100%;
+    
+    }
+
+h1{
+
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(85, 76, 109);
+    box-shadow:10px 10px 20px rgb(114, 107, 107);  
+    text-align:center;
+    display:block;
+    margin:50px;
+    
+
+}
+
+img{
+    border: solid;
+    border-color: rgba(56, 54, 54, 0.979);
+    box-shadow:10px 10px 20px rgb(88, 79, 79); 
+}
+
+h2{ 
+    
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(190, 56, 108);
+
+
+
+}
+
+h3{
+
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(190, 56, 108);
+
+
+}
+
+h4{
+
+
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(44, 45, 104);
+    text-align: center
+
+
+}
+
+li{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(47, 46, 121);
+    list-style: none;
+    
+
+}
+
+ul{
+
+    text-align:center;
+
+}
+
+.block1{
+
+    display: flex;
+}
+
+.placePhoto{
+
+    width: 40%;
+    text-align:center;
+}
+
+.placeNom{
+
+    width: 60%;
+   
+    
+
+}
+
+#imageProfil{
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.placeBouton{
+
+    text-align:center;
+}
+
+.ligne{
+
+    color: rgb(155, 13, 67);
+    font-size: 100px;
+
+}
+
+#mom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#mom img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+}
